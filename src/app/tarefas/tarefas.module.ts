@@ -5,10 +5,12 @@ import { RouterModule } from '@angular/router';
 
 import { ListarTarefaComponent } from './listar';
 import { TarefaService } from './shared';
+import { CadastrarTarefaComponent } from './cadastrar';
 
 @NgModule({
   declarations: [
-    ListarTarefaComponent
+    ListarTarefaComponent,
+    CadastrarTarefaComponent
   ],
   imports: [
     CommonModule,
